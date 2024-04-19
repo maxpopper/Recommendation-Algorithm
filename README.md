@@ -15,9 +15,10 @@ Item-based Recommendation: Utilizes item characteristics and user ratings to gen
 ## Installation
 Dependencies needed:
 - import pandas as pd
-- from sklearn.cluster import KMeans
-- import numpy as np
-- 
+- from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
+- from sklearn.neighbors import NearestNeighbors
+- from fuzzywuzzy import process
+- from langdetect import detect
 
 ## Steps
 
@@ -41,15 +42,11 @@ Utilize the trained model to generate recommendations for movies.
 
 
 
-
 ## Evaluation
 Precision: Measure of the accuracy of the recommended items
 
-## License
-
 ## Citation 
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. https://doi.org/10.1145/2827872
-
 
 ## Resources
 This and other GroupLens data sets are publicly available for download at http://grouplens.org/datasets/.
