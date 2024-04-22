@@ -8,7 +8,7 @@
 
 ## Overview
 
-Machine learning plays a part in our lives every day, whether we're aware of it or not. In class, we learned about ML under the context of regression, neural networks, and picture identification, but there are countless additional uses. Content=based recommendation algorithms are great examples of ML that add value to our lives. Platforms like YouTube, Spotify, and Instagram have spent years tailoring their respective algorithms to ensure their users find more content that they will like. Keeping this in mind, our aim for this project is to create a recommendation algorithm to suggest 10 similar movies based on 1 user-submitted movie title.
+Machine learning plays a part in our lives every day, whether we're aware of it or not. In class, we learned about ML under the context of regression, neural networks, and picture identification, but there are countless additional uses. Content-based recommendation algorithms are great examples of ML that add value to our lives. Platforms like YouTube, Spotify, and Instagram have spent years tailoring their respective algorithms to ensure their users find more content that they will like. Keeping this in mind, our aim for this project is to create a recommendation algorithm to suggest 10 similar movies based on 1 user-submitted movie title.
 
 Our dataset contains 11,000+ movies from the year 2000 until 2023, and takes key data points like *Year*, *Average User Rating*, *Rating Count*, and *Genres* into consideration when deciding what movies to recommend. Ultimately, our goal was to create an algorithm inspired by the ones used by Netflix, Hulu, and other movie streaming platforms to recommend movies that their users might like.
 
