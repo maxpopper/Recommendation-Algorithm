@@ -25,7 +25,7 @@ Dependencies needed:
 
 ## Steps
 
-1. Data Preparation
+### 1. Data Preparation
 Files are easy to read CSVs.
 File size has been reduced to a manageable size (from 335MB to 1.2MB )
 
@@ -35,14 +35,35 @@ The dataset describes 5-star rating and free-text tagging activity from [MovieLe
 
 Users were selected at random for inclusion. All selected users had rated at least 1 movies. No demographic information is included. Each user is represented by an id, and no other information is provided.
 
-3. Training the model
+
+### 2. Training the model
 Adjusting hyperparameters and configurations for optimal performance.
 
-4. Generating recommendations
+The following snipped of code does a few things to prepare movie-item data for analysis. It first loads the data from a CSV file. Then, it handles missing values by removing rows that have any missing data. Next, it scales numerical features like the year of release and ratings to be on a similar scale using MinMaxScaler. After that, it encodes categorical variables like movie genres into a format that the machine learning model can understand using OneHotEncoder. Lastly, it combines the original data with the encoded genre features to create a new dataset ready for further analysis
+
+<img src="Images\training.png"  style="width:800px"> <hr>
+
+
+### 3. Generating recommendations
 Utilize the trained model to generate recommendations for movies.
+<img src="Images\results.png"  style="width:800px"> <hr>
 
-## Example
+## Initial Model & Optimizacion 
 
+### <center> Cleaning Process
+
+After cleaning our data, we use unsupervised learning techniques to make it simpler, keeping only the most important information for building and training our model. We chose unsupervised learning because our data didn't have labels for users, which are needed for supervised methods. This helps us focus on the important parts of our data and get rid of the extra stuff, making our movie recommendation system work better with a cleaner and more effective model.
+
+<img src="Images\Filterin data.png"  style="width:800px"> <hr>
+<img src="Images\datacleaning.png"  style="width:800px"> <hr>
+
+
+### <center> Creating & Training the Model
+
+After summarizing and extracting the desired data, we progress to importing, creating, and training our model using KMeans. To initiate the model training, we must ascertain the optimal number of clusters that best fit our data, typically achieved through the elbow curve method. However, during the training process, we observed a negative score, suggesting poorer performance or a suboptimal fit of the model to the data. This prompted us to explore alternative models. Consequently, we opted to implement and experiment with a new model, specifically the K-Nearest Neighbors algorithm, drawing inspiration from an example shared during our class sessions.
+
+<img src="Images\elbow.png"  style="width:800px"> <hr>
+<img src="Images\score.png"  style="width:800px"> <hr>
 
 
 ## Evaluation
