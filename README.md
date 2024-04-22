@@ -33,6 +33,8 @@ File size has been reduced to a manageable size (from 335MB to 1.2MB )
 
 ![Further Cleaning](https://i.imgur.com/x89gvnL.png)
 
+Working with langdetect to first name all of the different languages we have in the title list, and then filter the data to English titles only.
+![langdetect work](https://i.imgur.com/BXGw8CS.png)
 
 
 The dataset describes 5-star rating and free-text tagging activity from [MovieLens](https://movielens.org/), a movie recommendation service. It contains 33832162 ratings and 2328315 tag applications across 86537 movies. These data were created by 330975 users between January 09, 1995 and July 20, 2023. This dataset was generated on July 20, 2023.
