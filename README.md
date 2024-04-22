@@ -30,7 +30,9 @@ Files are easy to read CSVs.
 File size has been reduced to a manageable size (from 335MB to 1.2MB )
 
 ![image](https://github.com/maxpopper/Recommendation-Algorithm/assets/17518802/1ac301fa-1e16-4e91-a826-e712eb5edfb2)
-![Further cleaning](https://imgur.com/a/SLmwrh7)
+
+![Further Cleaning](https://i.imgur.com/x89gvnL.png)
+
 
 
 The dataset describes 5-star rating and free-text tagging activity from [MovieLens](https://movielens.org/), a movie recommendation service. It contains 33832162 ratings and 2328315 tag applications across 86537 movies. These data were created by 330975 users between January 09, 1995 and July 20, 2023. This dataset was generated on July 20, 2023.
