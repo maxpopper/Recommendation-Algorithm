@@ -18,6 +18,7 @@ Item-based Recommendation: Utilizes item characteristics and user ratings to gen
 ## Installation
 Dependencies needed:
 - import pandas as pd
+- import matplotlib.pyplot as plt 
 - from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
 - from sklearn.neighbors import NearestNeighbors
 - from fuzzywuzzy import process
