@@ -23,6 +23,10 @@ Dependencies needed:
 - from fuzzywuzzy import process
 - from langdetect import detect
 
+## The Genre Data
+
+![Alt text](https://i.imgur.com/8rrUMQ4.png)
+
 ## Steps
 
 ### 1. Data Preparation
