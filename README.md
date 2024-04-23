@@ -76,10 +76,6 @@ After summarizing and extracting the desired data, we progress to importing, cre
 <img src="Images\elbow.png"  style="width:800px"> <hr>
 <img src="Images\score.png"  style="width:800px"> <hr>
 
-
-## Evaluation
-Precision: Measure of the accuracy of the recommended items
-
 ## Citation 
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. https://doi.org/10.1145/2827872
 [How to Build a Movie Recommendation System Based on Collaborative Filtering]([url](https://www.freecodecamp.org/news/how-to-build-a-movie-recommendation-system-based-on-collaborative-filtering/))
